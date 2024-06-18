@@ -1,0 +1,88 @@
+
+:root {
+    --near-black: #101010;
+    --background-gray: #303030;
+    --foreground-gray: #404040;
+
+    --normal-text-color: #f0f0f0;
+    --title-color: #00a0f0;
+    --link-color: #d0d0d0;
+    --link-hover-color: #ffffff;
+}
+
+header {
+    background: var(--near-black);
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body {
+    background: var(--background-gray);
+    margin: 0;
+    height: 100%;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    color: var(--title-color);
+    text-align: center;
+    margin-top: 0;
+}
+
+.index_title {
+    color: var(--title-color);
+    text-align: center;
+    margin: 40px;
+}
+
+.index_column {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 40px;
+}
+
+.blog_post_title {
+    color: var(--title-color);
+    margin: 40px;
+}
+
+.center_column {
+    background-color: var(--foreground-gray);
+    min-width: 60%;
+    max-width: 60%;
+}
+
+.blog_post_text {
+    white-space: pre-line;
+    color: var(--normal-text-color);
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    margin-top: 0px;
+}
+
+.blog_link:link {
+    color: var(--link-color);
+    text-decoration: none;
+}
+.blog_link:visited {
+    color: var(--link-color);
+    text-decoration: none;
+}
+.blog_link:hover {
+    color: var(--link-hover-color);
+    text-decoration: none;
+}
+.blog_link:active {
+    color: var(--link-hover-color);
+    text-decoration: none;
+}
